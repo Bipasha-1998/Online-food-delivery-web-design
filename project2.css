@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation section */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 85px;
+    margin: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: 93%;
+    z-index: -1;
+    opacity: 0.25; 
+}
+
+#logo img{
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+    padding: 3px 8px;
+}
+
+#navbar ul{
+    font-family: 'Baloo Tammudu 2', cursive;
+    display: flex;
+}
+
+#navbar li{
+    text-align: center;
+    list-style: none; 
+    font-size: 1.5rem;
+}
+
+#navbar li a{
+    display: block;
+    text-align: center;
+    height: 2em;
+    width:auto;
+    text-decoration: none;
+    padding: 6px 15px;
+    margin: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#navbar li a:hover{
+    background-color: rgb(240, 202, 133);
+    cursor: pointer;
+}
+
+/* Home section */
+.home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home::before{
+    content: "";
+    background: url('bg2.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: 485px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.h1-primary{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+.home p{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    width: 70em;
+}
+
+.btn{
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    width: 150px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: rgb(206, 92, 92);
+    border-radius: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(189, 72, 72);
+}
+
+/* Services section */
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 105%;
+    height: 690px;
+    margin: 5px 10px;
+    padding: 6px;
+}
+
+.services::before{
+    content: "";
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    width: 105%;
+    height: 700px;
+    background: url('bg1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.service-container{
+    display: flex;
+}
+
+.box{
+    background-color: rgb(238, 223, 217);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    margin: 10px;
+}
+
+.box p{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+
+.h2-primary{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+#foodOrder img{
+    width: 230px;
+    height: 200px;
+}
+
+#foodOrder{
+    margin: 10px;
+    padding: 15px;
+}
+
+#foodCater img{
+    width: 230px;
+    height: 200px;
+}
+
+#foodCater{
+    margin: 10px;
+    padding: 15px;
+}
+
+#foodDeliver img{
+    width: 200px;
+    height: 200px;
+}
+
+#foodDeliver{
+    margin: 10px;
+    padding: 15px;
+}
+
+.Order{
+    width: 105%;
+    height: 450px;
+    background-color: rgb(238, 188, 188);
+}
+
+.orderForm{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 380px;
+}
+.orderForm form div{
+    margin: 5px;
+    padding: 5px;
+}
+.orderForm form input{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 15em;
+    height: 20px;
+    background-color: rgb(247, 225, 225);
+    border-radius: 10px;
+}
+
+#btn1{
+    background-color: rgb(206, 92, 92);
+    width: 25em;
+    height: 25px 
+}
+
+#btn1:hover{
+    background-color: rgb(202, 82, 82);
+    cursor: pointer;
+}
+
+/* Find us section */
+.FindUs{
+    background-color: rgb(245, 179, 131);
+    width: 105%;
+    height: auto;
+    margin: 5px 0px;
+}
+
+.findbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findbox .logo{
+    margin: 35px;
+    padding: 35px;
+}
+
+.findbox .logo img{
+    width: 110px;
+    height: 110px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 105%;
+}

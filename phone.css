@@ -1,0 +1,86 @@
+
+@media  screen and (max-width: 1145px) {
+
+/* Navigation section */
+    #navbar{
+        flex-direction: column;
+        height: 138px;
+    }
+    
+    #navbar #logo img{
+        margin: 3px 10px;
+    }
+    
+    #navbar ul li a{
+        font-size: 15px;
+    }
+
+/* Home section */
+    .home{
+        height: 346px;
+    }
+
+    .homw::before{
+        height: 582px;
+    }   
+
+    .home p{
+        font-size: 10px;
+        width: 30em;
+    }
+
+    .h1-primary{
+        font-size: 2em;
+    }
+
+/* Service section */
+    .services{
+        height: auto;
+        margin: 5px 0px;
+        padding: 0px;
+    }
+
+    .services::before{
+        height: 1447px;
+    }
+
+    .service-container{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 35em;
+    }
+
+/* Order now section */
+    .orderForm form input{
+        font-size: 0.6em;
+    }
+
+    .orderForm{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #navbar ul li a{
+        font-size: 15px;
+        padding: 4px 9px;
+        margin: 4px 7px;
+    }
+    .box{
+        width: 15em;
+    }
+    .services::before{
+        height: 2006px;
+    }
+}
+
+@media screen and (max-width: 1067px) {
+    .findbox{
+        flex-wrap: wrap;
+    }
+}
+
+
